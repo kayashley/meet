@@ -1,8 +1,8 @@
-## Meet App
+# Meet App
 
 A serverless, progressive web application, built with React using test-driven development (TDD) technique. The application will fetch its data using Google Calendars API.
 
-# user stories
+## User Stories
 
 Feature 1: Filter events by city
 
@@ -40,7 +40,7 @@ As a user,
 I should be able to see displayed charts visualizing event details,
 So that I can see the different details of events in cities
 
-# user scenarios (Gherkin)
+## User Scenarios (Gherkin)
 
 Scenario 1: When a user hasn’t searched for a specific city, show upcoming events from all cities.
 Given: user hasn’t searched for any city
