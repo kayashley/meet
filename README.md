@@ -70,3 +70,8 @@ Scenario 6: Display charts visualizing details
 Given: user can see the different charts and details
 When: user searches for certain details and is presented with charts to visualize the details
 Then: user can view these charts/details
+
+# Serverless Functions
+
+In this meet app, serverless functions will take an important in handling authorization for public calendar events from the Google Calendar API. This is crucial, as users will need to authenicate themselves in order to retrieve any data that will render in the app. Serverless functions will generate a
+"token" that will provide access to the Google Calendar API.
